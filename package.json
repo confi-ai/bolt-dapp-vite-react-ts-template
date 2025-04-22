@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build && npm run buildContracts",
     "lint": "eslint .",
     "preview": "vite preview",
-    "buildContracts": "solcjs --include-path node_modules/ --bin --abi --optimize -o build/ contracts/*.sol"
+    "buildContracts": "solcjs --include-path node_modules/ --base-path . --bin --abi --optimize -o build/ contracts/*.sol"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
