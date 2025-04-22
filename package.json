@@ -11,9 +11,11 @@
     "buildContracts": "solcjs --include-path node_modules/ --bin --abi --optimize -o build/ contracts/*.sol"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "solc": "^0.8.29"
+    "solc": "^0.8.29",
+    "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
